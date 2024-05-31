@@ -7,7 +7,7 @@ app = Flask('web_flask')
 app.url_map.strict_slashes = False
 
 
-@app.route('/hbnb')
+@app.route('/0-hbnb/')
 def display_hbnb():
     """Generate page with popdown menu of states/cities"""
     states = storage.all('State')
